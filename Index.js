@@ -7,7 +7,7 @@ import mentorRoutes from "./Routers/Mentor-Router.js";
 import studentRoutes from "./Routers/Student-Router.js";
 
 dotenv.config(); // Initialize dotenv to load environment variables
-
+//rondom
 const app = express(); // Create Express application instance
 app.use(cors()); // Enable CORS for all routes
 app.use(express.json()); // Middleware to parse JSON request bodies
